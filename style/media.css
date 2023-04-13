@@ -1,0 +1,178 @@
+@media (max-width: 1319px) {
+    body{
+        width: 100%;
+    }
+    .header-nav-right{
+        width: 100%;
+        height: 80vh;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        right: 0;
+        z-index: 999;
+        background: rgba(177, 171, 171, 0.5);
+        transition: 500ms;
+    }
+    .menu{
+        margin-top: 15px;
+        display: block;
+        border-radius: 100%;
+        background: rgb(232, 228, 228);
+    }
+    .menu:hover ~ .header-nav-right{
+        top: 0;
+    }
+    .leaders-of-sales-content {
+        justify-content: center;
+    }
+    .leaders-watches {
+        max-width: 297px;
+    }
+    .leaders-watches h3 {
+        font-size: 15px;
+    }
+    .black-btn-los {
+        padding: 10px 1px;
+        width: 72px;
+    }
+    .leaders-watches span{
+        font-size: 16px;
+    }
+    .shop {
+        padding: 6px 11px}
+    .like {
+        padding: 6px 11px}
+    .black-btn-los {
+        padding: 10px 7px;}
+    .leaders-watches p {
+            font-size: 13px;
+    }
+    .footer-content {
+        justify-content: center;
+    }
+    .advice-one {
+        padding-bottom: 20px;
+        max-width: 450px;
+        max-height: 550px;
+        position: relative;
+    }
+    .advice-two {
+        max-width: 450px;
+        max-height: 550px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .last-news-content p {
+        margin: 30px 50px 100px 64px;
+    }
+    .advice-bottom {
+        position: absolute;
+        bottom: 20px;
+        left: 65px;
+    }
+    .header-nav-left{
+        font-size: ;
+    }
+    .header-nav-left {
+        font-size: 15px;
+    }
+    .header-watches-left p{
+        font-size: 12px;
+    }
+    .header-watches-left h2{
+        font-size: 14px;
+    }
+    .diadema-grand p{
+        font-size: 14px;
+    }
+    .diadema-grand h2{
+        font-size: 15px;
+    }
+}
+@media (max-width: 880px) {
+    .header-conent{
+        justify-content: space-evenly;
+        
+    }
+    .header-nav-left {
+        font-size: 11px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    .black-btn {
+        padding: 11px 20px;
+        font-size: 12px;
+    }
+    .header-watches{
+        flex-wrap: wrap;
+    }
+    .diadema-grand{
+        max-width: 505px;
+        max-height: 294px;
+        gap: 30px;
+        justify-content: center;
+    }
+    .diadema-grand img{
+        max-width: 146px;
+        max-width: 174px;
+    }
+    .footer-content{
+        justify-content: center;
+    }
+    .footer-content a{
+        font-size: 12px;
+    }
+    .footer-content p{
+        font-size: 12px;
+    }
+    .footer-content h3{
+        font-size: 12px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;   
+        margin: 0 100px;
+    }
+    .last-news-content p {
+        font-size: 14px;}
+    .last-news-content h3 {
+            font-size: 18px;
+            margin: 90px 20px 14px 60px;
+    }
+    .last-news-content {
+        flex-wrap: wrap;}
+}
+@media (max-width: 721px){
+    .header-nav-left {
+        flex-direction: column;
+        font-size: 15px;
+        margin-left: 200px;
+        gap: 10px;
+    }
+    .nav-watch {
+        margin: 0;
+    }
+    .nav-earrings {
+        margin: 0;
+    }
+    .nav-clutches {
+        margin: 0;
+    }
+}
+@media (max-width: 615px){
+    .header-nav-left {
+        margin-left: 130px;
+    }
+    .products {
+        margin: 0px 60px;
+    }
+    .header-watches a{
+        max-width: 410px;
+    }
+    .header-nav-left {
+        margin-left: 70px;
+    }
+}

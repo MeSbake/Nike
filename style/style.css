@@ -1,0 +1,350 @@
+@import url(fonts.css);
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+outline: none;
+list-style: none;
+border: none;
+font-family: MR;
+font-weight: 400;
+max-width: 100%;
+box-sizing: border-box;
+color: rgba(50, 50, 50, 1);
+user-select: none;
+}
+:root{
+    --gr: rgba(225, 225, 225, 1);
+}
+body{
+    max-width: 1920px;
+    margin: auto;
+    width: 100%;
+    background: rgba(241, 241, 241, 1);
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+.header-content{
+    display: flex;
+    position: relative;
+    align-content: center;
+}
+.header-nav{
+    display: flex;
+    gap: 179px;
+    align-items: center;
+    margin: 50px 0 20px;
+    
+}
+.header-nav-left{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.nav-watch{
+    margin: 0 62px 0 50px;
+}
+.nav-earrings{
+    margin: 0 42px;
+}
+.nav-clutches{
+    margin: 0 44px 0 19px;
+}
+.logo{
+    font-family: MB;
+    font-size: 32px;
+    margin-top: 40px;
+}
+.header-nav-right{
+    display: flex;
+    gap: 40px;
+}
+.header-watches{
+    margin: 40px 0 60px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.header-watches-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 526px;
+    
+}
+.pierre-lannier{
+    display: flex;
+    gap: 43px;
+    max-width: 526px;
+    background: rgba(225, 225, 225, 1);
+    justify-content: center;
+    padding: 73px 0 47px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 10px 10px rgba(0, 0, 255, .2);
+}
+.pierre-lannier div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20.45px;
+}
+.black-btn{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: rgba(50, 50, 50, 1);
+    padding: 11px 38px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    border-radius: 10px;
+}
+.pierre-lannier{
+    font-size: 16px;
+}
+.pierre-lannier h2{
+    font-size: 16px;
+    font-family: MB;
+    color: rgba(0, 0, 0, 1);
+}
+.Swiss-Military-Chrono{
+    display: flex;
+    gap: 12px;
+    max-width: 526px;
+    background: rgba(225, 225, 225, 1);
+    justify-content: right;
+    padding: 73px 46px 47px 110px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 10px 10px rgba(0, 0, 255, .2);
+}
+.Swiss-Military-Chrono p{
+    font-size: 16px;
+}
+.Swiss-Military-Chrono h2{
+    font-size: 16px;
+    font-family: MB;
+    color: rgba(0, 0, 0, 1);
+}
+.Swiss-Military-Chrono div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20.45px;
+}
+.diadema-grand{
+    display: flex;
+    max-width: 746px;
+    justify-content: right;
+    padding: 188px 100px 188px 110px;
+    background: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 10px 10px rgba(0, 0, 255, .2);
+}
+.diadema-grand h2{
+    font-family: MB;
+    margin: 15px 0;
+}
+.leaders-of-sales{
+    margin-bottom: 20px;
+}
+.leaders-of-sales-content{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 40px;
+    margin-top: 40px;
+}
+.black-btn-los{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(50, 50, 50, 1);
+    padding: 13px 34px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+}
+.like{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 16px 15px;
+    background: white;
+    border-radius: 10px;
+}
+.shop{
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    padding: 16px 15px;
+    background: white;
+    border-radius: 10px;
+}
+.leaders-watches{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--gr);
+    max-width: 404px;
+    padding: 72px 108px 39px;
+    position: relative;
+    box-shadow: 5px 10px 10px rgba(0, 0, 255, .2);
+    border-radius: 10px;
+    text-align: center;
+}
+.leaders-watches h3{
+    font-size: 20px;
+    font-family: MB;
+}
+.leaders-watches p{
+    font-size: 20px;
+}
+.more{
+    font-size: 30px;
+    text-align: center;
+    margin: 60px auto;
+    display: block;
+    width: fit-content;
+}
+.last-news-content{
+    padding: 40px 0 60px 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.advice-one{
+    max-width: 636px;
+    background: url(../img/advice-one.png);
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 470px;
+    padding-bottom: 20px;
+}
+.last-news-content h3{
+    font-size: 22px;
+    margin: 110px 0 30px 60px;
+    font-family: MB;
+    line-height: 26.82px;
+    color: white;
+}
+.last-news-content p{
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 110px 100px 64px;
+    color: rgba(225, 225, 225, 1);
+    font-family: MR;
+}
+.advice-bottom{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+.advice-bottom h4{
+    color: rgba(255, 255, 255, 1);
+}
+.advice{
+    position: absolute;
+    font-size: 20px;
+    padding: 13px 30px;
+    background: white;
+    color: black;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    
+}
+.advice-two{
+    max-width: 636px;
+    background: url(../img/advice-two.png);
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    max-height: 470px;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.footer{
+    background: rgba(50, 50, 50, 1);
+    padding: 100px 0 90px;
+}
+.footer-main{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.footer-content{
+    display: flex;
+}
+.footer a{
+    color: white;
+}
+.footer-a{
+    color: white;
+}
+.footer-logo{
+    font-size: 32px;
+    font-family: MB;
+    margin-bottom: 40px;
+}
+.TOTEMBO{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+    margin: 0 217px 0 160px;
+}
+.cont-soc{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+.socials div{
+    display: flex;
+    gap: 28px;
+}
+.menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.menu2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
